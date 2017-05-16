@@ -1,0 +1,188 @@
+@media (min-width: 600px) {
+  * {
+  box-sizing: border-box;
+  }
+  body {
+    background: #70e1f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Roboto', sans-serif;
+  }
+  div {
+    text-align: center;
+    border-radius: 5px;
+    /*border: thin solid red;*/
+  }
+  input {
+    border-radius: 5px;
+  }
+  textarea {
+    border-radius: 5px;
+  }
+  textarea:focus {
+    background-color: lightblue;
+}
+  input:focus {
+    background-color: lightblue;
+}
+  .left {
+    float: left;
+  }
+  .right {
+    width: 60%;
+    margin: 20px auto;
+    float: right;
+  }
+  .entry {
+    background-color: white;
+    border: thin black solid;
+    height: 200px;
+    margin: 25px auto;
+    background-color: #F5F8FA;
+    padding: 20px;
+  }
+  .posted {
+    background-color: white;
+    border: thin black solid;
+    height: 200px;
+    margin: 10px auto;
+    background-color: #F5F8FA;
+    padding: 20px;
+  }
+  #userBox {
+    width: 95%;
+    min-height: 150px;
+    background-color: white;
+    border: thin black solid;
+  }
+  #trending {
+    width: 95%;
+    min-height: 150px;
+    background-color: white;
+    border: thin black solid;
+    text-align: left;
+  }
+  #trending li {
+    list-style: none;
+  }
+  .profilepic {
+    float: left;
+    padding: 5px;
+  }
+
+  .outer-div
+  {
+       margin: 0 auto;
+       min-height: 300px;
+       padding: 30px;
+  }
+  .inner-div
+  {
+       margin: auto;
+       text-align: center;
+  }
+  .inner-div h1 {
+     font-size: 600%;
+     color: white;
+     word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
+  }
+}
+
+@media (min-width: 100px){
+  * {
+  box-sizing: border-box;
+  }
+  body {
+    background: #70e1f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Roboto', sans-serif;
+  }
+  div {
+    text-align: center;
+    border-radius: 5px;
+    width: 80%;
+  }
+  input {
+    border-radius: 5px;
+  }
+  textarea {
+    border-radius: 5px;
+  }
+  textarea:focus {
+    background-color: lightblue;
+}
+  input:focus {
+    background-color: lightblue;
+}
+  .right {
+    width: 60%;
+    margin: 20px auto;
+  }
+  .entry {
+    background-color: white;
+    border: thin black solid;
+    height: 200px;
+    margin: 25px auto;
+    background-color: #F5F8FA;
+    padding: 20px;
+  }
+  .posted {
+    background-color: white;
+    border: thin black solid;
+    height: 200px;
+    margin: 10px auto;
+    background-color: #F5F8FA;
+    padding: 20px;
+  }
+  #userBox {
+    width: 95%;
+    min-height: 150px;
+    background-color: white;
+    border: thin black solid;
+  }
+  #trending {
+    width: 95%;
+    min-height: 150px;
+    background-color: white;
+    border: thin black solid;
+    text-align: left;
+  }
+  #trending li {
+    list-style: none;
+  }
+  .profilepic {
+    float: left;
+    padding: 5px;
+  }
+
+  .outer-div
+  {
+       margin: 0 auto;
+       min-height: 300px;
+       padding: 30px;
+  }
+  .inner-div
+  {
+       margin: auto;
+       text-align: center;
+  }
+  .inner-div h1 {
+     font-size: 600%;
+     color: white;
+     word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
+  }
+  .left {
+    display: none;
+  }
+}

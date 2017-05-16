@@ -1,0 +1,72 @@
+<%- include('../views/partials/header') %>
+<%- include('../views/partials/navbar') %>
+<div id="left" class="container">
+
+
+
+  <div class="row">
+    <div class="left col-m-4">
+      <div id="userBox">
+        <span class="profilepic">
+        <img src="../images/profile.png" width="50px">
+        <p>messages</p>
+        <h2>12</h2>
+        </span>
+
+          <h3>Mikey</h3>
+          <p>@mikeyyyyyyy</p>
+
+      </div>
+      <h4>Trending Awe Tweets</h4>
+      <div id="trending">
+        <ul>
+          <li># I</li>
+          <li># Am</li>
+          <li># Not</li>
+          <li># Good</li>
+          <li># At</li>
+          <li># This</li>
+        </ul>
+      </div>
+    </div>
+    <div class="right col-m-8 col-xs-10">
+      <div class="">
+        <form method="post">
+          <div>
+            <label for="userName">User Name: </label>
+            <input id="userName" name="userName" />
+          </div>
+          <div>
+            <label for="comment">Comment: </label>
+            <textarea id="comment" name="comment" rows="8" cols="40"></textarea>
+          </div>
+          <div>
+            <input type="submit" name="submit">
+          </div>
+        </form>
+      </div>
+      <div class="right">
+        <div class="posted">
+          <h1><%= userName %> says:</h1>
+          <h3><%= comment %></h3>
+        </div>
+        <div class="posted">
+          <h1><%= userName %> says:</h1>
+          <h3><%= comment %></h3>
+        </div>
+        <div class="posted">
+          <h1><%= userName %> says:</h1>
+          <h3><%= comment %></h3>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+    <%- include('../views/partials/footer') %>
